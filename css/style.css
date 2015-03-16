@@ -1,0 +1,92 @@
+body
+{
+	font-family: Arial;
+	color: black;
+}
+
+h1
+{
+	font-size: 30px;
+	margin-bottom:  5px;
+}
+
+h2 
+{
+	font-size: 20px;
+}
+
+video
+{
+	width: 100%;
+}
+
+.form-search
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.form-search > form > input
+{
+	width: 250px;
+}
+
+.main-section .multimedia
+{
+	width: 100%;
+	height: 250px;
+}
+
+.main-section table
+{
+	padding: 5px;
+	width: 200px;
+	text-align: center;
+}
+
+.main-section .options
+{
+	border-top: 1px solid #CBC9CF;
+	border-bottom: 1px solid #CBC9CF;
+}
+
+.main-section figure
+{
+	width: 305px;
+	margin: 10px;
+	float: left;
+}
+
+.main-section figure figcaption
+{
+	background-color: #333;
+	color: white;
+	height: 15px;
+	padding: 10px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	video{
+		width: 100%;
+	} 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	video{
+		width: 100%;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	video{
+		width: 100%;
+	}
+}
+
+
